@@ -1,0 +1,44 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (2.3.8)
+    bson (1.0.4)
+    bson_ext (1.0.4)
+    durran-validatable (2.0.1)
+    haml (3.0.16)
+    mail (2.2.5)
+      activesupport (>= 2.3.6)
+      mime-types
+      treetop (>= 1.4.5)
+    mime-types (1.16)
+    mongo (1.0.7)
+      bson (>= 1.0.4)
+    mongo_ext (0.19.3)
+    mongoid (1.9.1)
+      activesupport (<= 3.0.0)
+      bson (~> 1.0.1)
+      durran-validatable (>= 2.0.1)
+      mongo (~> 1.0.1)
+      will_paginate (< 2.9)
+    polyglot (0.3.1)
+    rack (1.2.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+    sinatra-mongoid (0.0.2)
+      mongo_ext
+      mongoid
+      sinatra
+    treetop (1.4.8)
+      polyglot (>= 0.3.1)
+    will_paginate (2.3.14)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  haml
+  mail
+  mongoid
+  sinatra
+  sinatra-mongoid
